@@ -68,9 +68,13 @@ while(true) {
     }
     console.log(`${mvStr};`);
   } else {
-    console.log('ERROR: unrecongized opcode');
+    console.log('ERROR: unrecognized opcode:', opcode);
     break;
   }
+}
+
+function isInside(penPosition, x, y) {
+  
 }
 /*
 CLR;
