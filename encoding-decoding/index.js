@@ -15,7 +15,7 @@ module.exports = {
   },
   decode: input => {
     if(input.length !== 4){
-      throw new Error('invalid argument'); //could use more error checking
+      throw new Error(`invalid argument, input wrong length: ${input}`); //could use more error checking
     }
     const highStr = input.slice(0, 2);
     const lowStr = input.slice(2);
