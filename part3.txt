@@ -1,0 +1,33 @@
+1. Tell us about something that you recently learned (or are currently learning).
+  I've been learning a lot about latency in web applications.  What affects latency, how to catch latency problems and
+  also fix them.
+   How do you approach learning a new skill?
+   I do an hands on approach to learning new skills.  These means reading about the skill and then using
+   it in a real world application.
+
+2. Describe the differences between projects you've been involved with (or seen) that have succeeded,
+  and those that have not been successful.
+  Projects that have been successful seem to have a couple of common themes.  First one is: there should be
+  enough time for testing, especially automated testing really helps build confidence that the
+  product will work as expected. Second one is feature creep.  Projects that are well defined in the beginning
+  allow the code to settle (which means bugs are fixed) before production release.
+
+3. The languages, tools, and technologies that we use as developers are always changing. What
+specific languages/frameworks/platforms should developers be learning now to be ready for the next
+few years?
+  I think the next language that developers should learn is anything in the functional realm.  I would spend
+  some time focusing on languages like Clojure and F#.
+
+4. Discuss the most effective team you've been a part of. What made it so? What was your role on the
+team?
+  One of the more effective teams I have been with is when there is a good mixture of engineers.  Leaders and also
+  young engineers.  I was a leader on that team.  I helped mentor and onboard new engineers.  Having a good mixture
+  of experience allowed different roles.  More experienced engineers took up some architecture and design, while
+  the younger engineers coded the designs (usually paired with a more experienced engineer).
+
+5. What specific approaches or techniques do you use in your code to make sure that it's bug-free and
+performant?
+  Unit and integration testing (end-to-end testing) need to executed in a automated fashion so after
+  every code update (commit) then the tests can be run in CI (and also locally).
+  Performance testing would be needed would be needed to be done in a more manual fashion.  For web projects
+  time should be spent profiling the code using the Chrome dev tools.
